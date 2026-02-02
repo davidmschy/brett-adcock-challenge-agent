@@ -1,0 +1,22 @@
+{
+  \"name\": \"brett-challenge-agent\",
+  \"version\": \"1.0.0\",
+  \"description\": \"Browser automation agent for Brett Adcock's 30-challenge test\",
+  \"main\": \"agent.js\",
+  \"type\": \"module\",
+  \"scripts\": {
+    \"start\": \"node agent.js\",
+    \"solve\": \"node agent.js\",
+    \"explore\": \"node explore.js\",
+    \"install:browser\": \"npx playwright install chromium\"
+  },
+  \"dependencies\": {
+    \"playwright\": \"^1.41.0\"
+  },
+  \"engines\": {
+    \"node\": \">=18.0.0\"
+  },
+  \"keywords\": [\"browser-automation\", \"playwright\", \"ai-agent\", \"computer-use\"],
+  \"author\": \"Genii AI\",
+  \"license\": \"MIT\"
+}
